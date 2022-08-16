@@ -37,10 +37,7 @@ public class Runner {
         System.out.println(scottishIslands.size());
 
 //        8. Sort the list alphabetically
-        scottishIslands.sort(Comparator.naturalOrder());
-        for(int i = 0; i < scottishIslands.size(); i++){
-            System.out.println(scottishIslands.get(i));
-        }
+        Collections.sort(scottishIslands);
 
 //        9. Print out all the islands using a for loop
         for (String scottishIsland : scottishIslands){
